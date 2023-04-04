@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 30px auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px dimgray double;
+    width: 50%;
+    margin: auto;
+    background-image: url("img/bg.jpg");
+}
+#audio-player{
+    margin-top: 20px;
+    background-color: rgba(19,57,58,0.88);
+
+}
+
+.playlist {
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #666;
+}
